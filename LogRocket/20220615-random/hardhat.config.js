@@ -19,25 +19,16 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 // Go to https://hardhat.org/config/ to learn more
 
 /**
- * @type import('hardhat/config').HardhatUserConfig
+ * 
  */
 
 module.exports = {
   solidity: "0.8.4",
-/*
   networks: {
-    "local-devnode": {
-       url: "http://localhost:8545",
-       accounts: { mnemonic: "test test test test test test test test test test test junk" }
-    },
-    "optimistic-kovan": {
-       url: "https://kovan.optimism.io",
-       accounts: { mnemonic: process.env.MNEMONIC }
-    },
+    
     "optimism": {
-       url: "https://mainnet.optimism.io",
-       accounts: { mnemonic: process.env.MNEMONIC }
+       url: "https://opt-goerli.g.alchemy.com/v2/VTg3MG9DdBcNj-a5CV8UUkHg8p3E2QQg",
+       accounts: [ "31c5f96ddb37dd824fa10ee2a8bb6792dd91b43f9343da1ea4931a2f313c1c4b" ]
     }
   }
-*/
 };
